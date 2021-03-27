@@ -1,0 +1,26 @@
+.container {
+  width: 450px;
+  padding: 40px;
+  border-radius: 7px;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.623);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 83, 109, 0.315);
+}
+
+.formTitle {
+  margin-bottom: 15px;
+}
+
+.contactsCont {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contactsList {
+  list-style: none;
+  margin-top: 20px;
+}

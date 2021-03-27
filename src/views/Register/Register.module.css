@@ -1,0 +1,44 @@
+.authForm {
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 38, 255, 0.315);
+}
+
+.authLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.authInput {
+  border-radius: 7px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.registerButton {
+
+ padding: 10px 20px;
+ background-color: #004a9e;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ border: none;
+ outline: none;
+ opacity: 0.8;
+ transition: opacity 250ms;
+
+ cursor: pointer;
+ color: #fff;
+ font-weight: 700;
+ font-size: 16px;
+ text-transform: uppercase;
+}
+
+.registerButton:hover {
+  opacity: 1;
+}
+
